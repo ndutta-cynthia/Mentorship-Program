@@ -1,0 +1,86 @@
+.my-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 5%;
+  color: rgb(9, 1, 1);
+}
+.short {
+  border: solid 3px;
+  width: 45%;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.long {
+  border: solid 3px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 45%;
+}
+.goals {
+  margin-left: 46%;
+  color: orange;
+  margin-top: 5%;
+}
+
+.go-back {
+  background-color: red;
+  border-radius: 20%;
+  width: 70%;
+  height: 40px;
+  margin-left: 52%;
+  color: white;
+  margin-top: 5%;
+}
+body{
+    background-color: gainsboro;
+}
+.my-goals {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  margin-top: 4%;
+  color: black;
+}
+@media screen and (min-width: 280px) and (max-width: 550px) {
+  .my-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-top: 10%;
+    color: rgb(9, 1, 1);
+  }
+  .short {
+    border: solid 3px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .long {
+    border: solid 3px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .goals {
+    margin-left: 52%;
+    color: black;
+  }
+
+  .go-back {
+    background-color: orangered;
+    border-radius: 20%;
+    width: 70%;
+    height: 40px;
+    margin-left: 52%;
+    color: white;
+    margin-top: 5%;
+  }
+  .my-goals {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-top: 10%;
+    color: black;
+  }
+}

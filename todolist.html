@@ -8,7 +8,7 @@
 </head>
 <body action="landing.html">
 
-    <div id="myDIV" class="header" >
+    <div class="header" >
         <h2>My To Do List</h2>
         <input type="text" id="myInput" placeholder="Title...">
         <span onclick="newElement()" class="addBtn">Add</span>
@@ -23,11 +23,13 @@
         <li>Read the book "Born a Crime"</li>
       </ul>
       <div class="go-back">
-        <span ><a href="landing.html"><button>Landing Page</button></a></span>
+        <div><b>Want to go back to landing page?</b></div>
+      <div class="go-back">
+        <span class="landing-page"><a href="landing.html"><button>Landing Page</button></a></span>
+      </div>
       </div>
 
       <script>
-       // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -37,8 +39,6 @@ for (i = 0; i < myNodelist.length; i++) {
   span.appendChild(txt);
   myNodelist[i].appendChild(span);
 }
-
-// Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -47,8 +47,6 @@ for (i = 0; i < close.length; i++) {
     div.style.display = "none";
   }
 }
-
-// Add a "checked" symbol when clicking on a list item
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
@@ -56,7 +54,6 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
-// Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;

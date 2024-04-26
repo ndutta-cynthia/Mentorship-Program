@@ -1,13 +1,25 @@
 .navbar {
   display: flex;
-  flex-direction: row;
-  margin-left: 30%;
+  flex-direction: column;
   align-items: center;
+  font-size: x-large;
+  background-color: orange;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbarparagraph {
+  margin-top: 3%;
+}
+.img-body img {
+  height: 70%;
+  width: 90%;
+}
+.container {
+  border: solid 2px black;
 }
 .logo img {
-  width: 30%;
-  height: 60%;
-  margin-left: 40%;
+  width: 90px;
+  height: 100%;
 }
 ul {
   display: flex;
@@ -15,20 +27,84 @@ ul {
   justify-content: space-around;
   list-style-type: none;
   text-decoration: none;
-}
-body {
-  background-image: linear-gradient(red, yellow);
-  background-repeat: no-repeat;
+  margin-top: -3%;
 }
 .landing-page {
-padding-left: 20%;
-
-padding-right : 20%;
-
-border: solid 3px black;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
- 
-  
+  margin-top: 5px;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid 3px black;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.instagram img {
+  width: 10%;
+}
+.facebook img {
+  width: 10%;
+}
+.tweeter img {
+  width: 10%;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
 }
 
+.foot {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5%;
+  margin-left: 42%;
+  gap: 0%;
+}
+@media screen and (min-width: 280px) and (max-width: 550px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    background-color: orange;
+    color: aliceblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container {
+    border: solid 2px black;
+  }
+  .img-body {
+    width: 20px;
+    height: 10%;
+  }
+  .logo img {
+    width: 50px;
+    height: 100%;
+  }
 
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .landing-page {
+    margin-top: 5px;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .instagram img {
+    width: 20%;
+  }
+  .facebook img {
+    width: 20%;
+  }
+  .tweeter img {
+    width: 20%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    gap: 0%;
+    margin-right: 30%;
+  }
+}
