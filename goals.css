@@ -7,15 +7,16 @@
   margin-top: 5%;
   color: rgb(9, 1, 1);
 }
+
 .short {
   border: solid 3px;
   width: 45%;
-  height: 500px;
+  height: 600px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .long {
   border: solid 3px;
-  height: 500px;
+  height: 600px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   width: 45%;
 }
@@ -34,8 +35,8 @@
   color: white;
   margin-top: 5%;
 }
-body{
-    background-color: gainsboro;
+body {
+  background-color: gainsboro;
 }
 .my-goals {
   display: flex;
@@ -44,6 +45,13 @@ body{
   margin-top: 4%;
   color: black;
 }
+/* ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+} */
 @media screen and (min-width: 280px) and (max-width: 550px) {
   .my-body {
     display: flex;

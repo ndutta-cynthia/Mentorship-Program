@@ -28,6 +28,13 @@ body {
   color: rgb(10, 2, 2);
   margin-top: 2%;
 }
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+}
 .details {
   font-size: xx-large;
   font-family: sans-serif;

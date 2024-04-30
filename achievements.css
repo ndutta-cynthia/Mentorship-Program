@@ -36,6 +36,13 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+}
 .todobutton {
   width: 40%;
   height: 50px;
